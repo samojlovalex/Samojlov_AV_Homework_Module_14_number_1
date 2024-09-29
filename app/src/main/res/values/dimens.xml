@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_around">8dp</dimen>
+
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="margin_between">4dp</dimen>
+    <dimen name="cardCornerRadius">6dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+    <dimen name="textSizeEditText">18sp</dimen>
+    <dimen name="textSizeButton">18sp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+
+    <dimen name="padding_text">4dp</dimen>
+    <dimen name="textSizeNumberNote">18sp</dimen>
+    <dimen name="textSizeTime">12sp</dimen>
+    <dimen name="textSizeNote">22sp</dimen>
+
+</resources>

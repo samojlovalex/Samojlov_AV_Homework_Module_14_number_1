@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/containerToolbarFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_around"
+            android:layout_marginTop="@dimen/margin_around"
+            android:layout_marginEnd="@dimen/margin_around"
+            android:layout_marginBottom="@dimen/margin_between"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbarFirst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Blue"
+                    app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:subtitleTextColor="@color/white"
+                    app:titleTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:titleTextColor="@color/white">
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/containerEditTextFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_around"
+            android:layout_marginTop="@dimen/margin_between"
+            android:layout_marginEnd="@dimen/margin_around"
+            android:layout_marginBottom="@dimen/margin_between"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/editTextET_First_Hint"
+                    android:minHeight="@dimen/minHeight"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Grey"
+                    android:textSize="@dimen/textSizeEditText"></EditText>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/containerButtonFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_around"
+            android:layout_marginTop="@dimen/margin_between"
+            android:layout_marginEnd="@dimen/margin_around"
+            android:layout_marginBottom="@dimen/margin_between"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <Button
+                    android:id="@+id/saveButtonBT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/Blue"
+                    android:text="@string/saveButtonBT_First_Text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSizeButton"></Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

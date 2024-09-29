@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_14_number_1</string>
+
+    <string name="toolbar_title">Мои заметки</string>
+    <string name="toolbar_subtitle">Mod. 14 № 1</string>
+    <string name="exit">Exit</string>
+    <string name="removeBD">RemoveBD</string>
+    <string name="toast_exit">Приложение закрыто</string>
+    <string name="toast_remove">База данных очищена</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editTextET_First_Hint">Введите текст заметки</string>
+    <string name="saveButtonBT_First_Text">Добавить</string>
+    <string name="noteNumberTV_Hint">№ заметки</string>
+    <string name="noteTextTV_Hint">Текст заметки</string>
+    <string name="match_parent_Hint">время, дата</string>
+</resources>
