@@ -65,6 +65,8 @@ class FirstFragment : Fragment() {
                         Toast.LENGTH_LONG
                     ).show()
                     db.removeAll()
+                    listNotesInit()
+                    initAdapter()
                 }
             }
             return@setOnMenuItemClickListener super.onOptionsItemSelected(item)
