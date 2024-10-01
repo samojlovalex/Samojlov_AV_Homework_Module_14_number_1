@@ -92,7 +92,7 @@ class FirstFragment : Fragment() {
             createNote()
             listNotesInit()
             initAdapter()
-
+            editTextET.text.clear()
         }
 
     }
